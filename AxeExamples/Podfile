@@ -1,0 +1,7 @@
+'use_frameworks!'
+
+pod 'UMengSocialCOM', '~> 5.2.1'
+pod 'MJRefresh'
+pod 'Qiniu', '~> 7.1'
+pod 'Masonry'
+pod 'ReactiveCocoa'
