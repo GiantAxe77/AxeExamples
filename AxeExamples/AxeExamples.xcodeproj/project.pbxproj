@@ -16,9 +16,9 @@
 		55BAD6581D54A34900E8130D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BAD6511D54A34900E8130D /* Assets.xcassets */; };
 		55BAD6591D54A34900E8130D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BAD6521D54A34900E8130D /* LaunchScreen.storyboard */; };
 		55BAD65A1D54A34900E8130D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BAD6541D54A34900E8130D /* main.m */; };
-		55BAD65B1D54A34900E8130D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BAD6561D54A34900E8130D /* Info.plist */; };
 		55BFDB1C1D80180D0028112D /* UILabel+AXEVerticalAlign.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BFDB1B1D80180D0028112D /* UILabel+AXEVerticalAlign.m */; };
 		55EEECE61D86587E00BFABC0 /* AXEBackToTopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EEECE51D86587E00BFABC0 /* AXEBackToTopManager.m */; };
+		55F215631D8D401800B570D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55F215621D8D401800B570D9 /* Info.plist */; };
 		55F2859F1D7EAE7400267943 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2859E1D7EAE7400267943 /* UIViewController+Swizzling.m */; };
 		55F34F661D783A63000F9A20 /* CBCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F34F651D783A63000F9A20 /* CBCustomAlertView.m */; };
 		55F34F681D783DFA000F9A20 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F34F671D783DFA000F9A20 /* 02.png */; };
@@ -97,12 +97,12 @@
 		55BAD6511D54A34900E8130D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55BAD6531D54A34900E8130D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55BAD6541D54A34900E8130D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55BAD6561D54A34900E8130D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55BAD65D1D54F00900E8130D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		55BFDB1A1D80180D0028112D /* UILabel+AXEVerticalAlign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AXEVerticalAlign.h"; sourceTree = "<group>"; };
 		55BFDB1B1D80180D0028112D /* UILabel+AXEVerticalAlign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AXEVerticalAlign.m"; sourceTree = "<group>"; };
 		55EEECE41D86587E00BFABC0 /* AXEBackToTopManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXEBackToTopManager.h; sourceTree = "<group>"; };
 		55EEECE51D86587E00BFABC0 /* AXEBackToTopManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXEBackToTopManager.m; sourceTree = "<group>"; };
+		55F215621D8D401800B570D9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F2859D1D7EAE7400267943 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
 		55F2859E1D7EAE7400267943 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 		55F34F641D783A63000F9A20 /* CBCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCustomAlertView.h; sourceTree = "<group>"; };
@@ -535,7 +535,7 @@
 		55BAD6551D54A34900E8130D /* Plist files */ = {
 			isa = PBXGroup;
 			children = (
-				55BAD6561D54A34900E8130D /* Info.plist */,
+				55F215621D8D401800B570D9 /* Info.plist */,
 			);
 			path = "Plist files";
 			sourceTree = "<group>";
@@ -885,11 +885,11 @@
 			files = (
 				55F89BDE1D55BB090037427A /* AXELeadCollectionViewCell.xib in Resources */,
 				55F89BD61D55B37F0037427A /* keep.mp4 in Resources */,
+				55F215631D8D401800B570D9 /* Info.plist in Resources */,
 				55BAD6591D54A34900E8130D /* LaunchScreen.storyboard in Resources */,
 				55BAD6581D54A34900E8130D /* Assets.xcassets in Resources */,
 				55F76E9E1D670EE500EE70AC /* fontello.ttf in Resources */,
 				557E0A821D5B2B310000496F /* AXEMainVCCell.xib in Resources */,
-				55BAD65B1D54A34900E8130D /* Info.plist in Resources */,
 				55FCB87C1D6ADD790042D5E1 /* iconfonts.ttf in Resources */,
 				55F34F681D783DFA000F9A20 /* 02.png in Resources */,
 			);
@@ -1132,7 +1132,7 @@
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AxeExamples/Classes/Public/Other/PrefixHeader.pch;
-				INFOPLIST_FILE = "/Users/GiantAxe/Desktop/AxeExamples/AxeExamples/Supporting Files/Plist files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AxeExamples/Supporting Files/Plist files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.Axe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1147,7 +1147,7 @@
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AxeExamples/Classes/Public/Other/PrefixHeader.pch;
-				INFOPLIST_FILE = "/Users/GiantAxe/Desktop/AxeExamples/AxeExamples/Supporting Files/Plist files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/AxeExamples/Supporting Files/Plist files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.Axe;
 				PRODUCT_NAME = "$(TARGET_NAME)";

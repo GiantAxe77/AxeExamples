@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    // 初始化
     [self setup];
     
     [self setupWebView];
